@@ -2,9 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-  /* max-width: 1440px; */
-}
+

@@ -5,7 +5,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#000000", // your primary color
+        primary: "#0F1C80",
+        secondary: "#FF7C02",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

@@ -1,4 +1,8 @@
 const Home = () => {
-  return <div>hello</div>;
+  return (
+    <div>
+      <h1 className="text-3xl  py-10 font-bold underline">Home Page</h1>
+    </div>
+  );
 };
 export default Home;
