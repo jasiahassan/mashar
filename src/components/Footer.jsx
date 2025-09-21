@@ -6,7 +6,7 @@ import logoFooter from "../assets/logoFooter.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0b1e87] text-white pt-10 pb-5 px-36">
+    <footer className="bg-primary text-white pt-10 pb-5 px-36">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Logo & Description */}
         <div className="mr-10">

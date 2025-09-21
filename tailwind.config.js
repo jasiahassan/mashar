@@ -10,7 +10,8 @@ export default {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        spartan: ["Spartan", "sans-serif"],
+        spartan: ['"League Spartan"', "sans-serif"],
+
       },
     },
   },
