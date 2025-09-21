@@ -1,9 +1,35 @@
 import { motion } from "framer-motion";
 import FloatingCircle from "../components/FloatingCircle";
+import NewsletterPopup from "./NewsletterPopup";
+import { useEffect, useState } from "react";
 
 const Home = () => {
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    // Check if user has already seen the popup
+    const hasSeenPopup = localStorage.getItem("hasSeenNewsletterPopup");
+
+    if (!hasSeenPopup) {
+      // Show popup 1 second after page load
+      const timer = setTimeout(() => {
+        setShowPopup(true);
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+    // Mark that user has seen the popup
+    localStorage.setItem("hasSeenNewsletterPopup", "true");
+  };
+
   return (
     <>
+      {showPopup && <NewsletterPopup onClose={handleClosePopup} />}
+
       {/* hero section */}
       <section className="bg-white py-12 px-6 md:px-20 flex flex-col-reverse md:flex-row items-center justify-between gap-6 ">
         {/* Left Content */}
