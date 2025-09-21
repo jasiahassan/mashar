@@ -11,6 +11,7 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         spartan: ['"League Spartan"', "sans-serif"],
+
       },
     },
   },
