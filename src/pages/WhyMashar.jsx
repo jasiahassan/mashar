@@ -19,11 +19,11 @@ function WhyMashar() {
         >
           <div className="absolute inset-0 bg-black opacity-70"></div>
         </div>
-        <div className="relative z-10 tracking-widest">
-          <h1 className=" md:text-[40px] font-medium mb-4 ">
+        <div className="relative z-10 tracking-wider">
+          <h1 className=" md:text-5xl  mb-4 ">
             Rooted in Values. Built for <br></br>Transformation.
           </h1>
-          <div className="flex justify-center items-center space-x-2 text-base mt-10">
+          <div className="flex justify-center items-center space-x-2 text-lg mt-10">
             <span>Home</span>
             <span className="mx-4 text-2xl ">&gt;</span>
             <span>Why Mashar</span>
@@ -33,13 +33,13 @@ function WhyMashar() {
 
       {/* Roots Run Deep Section */}
       <section className="bg-white pt-24 pb-20 font-spartan px-4 md:px-20 lg:px-36 flex flex-col lg:flex-row items-center justify-between space-y-10 lg:space-y-0 lg:space-x-12">
-        <div className="lg:w-[410px] text-left tracking-wider ">
-          <h2 className="text-[38px] font-semibold ">
+        <div className="lg:w-[400px] text-left tracking-wide">
+          <h2 className="text-[45px] font-medium ">
             Our <span className="text-[#0F1C80]">Roots</span>{" "}
             <span className="text-[#FF7C02]">Run</span>{" "}
             <span className="text-[#0F1C80]">Deep</span>
           </h2>
-          <div className="mb-6 w-80 ">
+          <div className="mb-6 w-80 mt-[-14px] ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="100%"
@@ -69,15 +69,15 @@ function WhyMashar() {
             </svg>
           </div>
 
-          <p className=" text-[13px] mb-4">
+          <p className=" text-[15px] leading-snug mb-4 ">
             Our story is grounded in a legacy of authentic, impact-driven
             leadership and transformation.<br></br> Founded in 2014, Mashar
             began with a simple, powerful belief:
           </p>
-          <blockquote className=" mb-3 mt-6 text-[13px] font-semibold">
+          <blockquote className=" mb-3 mt-6 text-[15px] font-semibold leading-snug">
             "Great leadership starts with self-awareness and cultural alignment"
           </blockquote>
-          <p className="text-[13px] mb-4">
+          <p className="text-[15px] mb-4 leading-snug">
             We were the first firm in the GCC to launch a bilingual Certified
             Professional Coaching & Mentoring Program — pioneering a unique
             blend of global standards and regional values.<br></br> Over the
@@ -129,9 +129,9 @@ function WhyMashar() {
 
           {/* Content */}
           <div className="relative z-10 h-full flex flex-col items-center justify-center text-center p-16 transition-all duration-200">
-            <h2 className="text-4xl font-semibold mb-6 transition-all duration-300 group-hover:mb-0 group-hover:text-[#FF7C02]">
+            <h2 className="text-5xl font-semibold mb-6 transition-all duration-200 group-hover:mb-0 group-hover:text-[#FF7C02]">
               Our{" "}
-              <span className="text-[#FF7C02] group-hover:text-black px-2 rounded transition-all duration-300">
+              <span className="text-[#FF7C02] group-hover:text-black px-2 rounded transition-all duration-200">
                 Vision
               </span>
             </h2>
@@ -167,7 +167,7 @@ function WhyMashar() {
               </svg>
             </div>
 
-            <p className="text-sm tracking-wider mt-6 transition-all duration-200 group-hover:mt-2">
+            <p className="mt-6 transition-all duration-200 group-hover:mt-2">
               To shape future-ready leaders who lead with purpose, compassion,
               and cultural insight. Our vision is to be the Middle East’s
               trusted force in leadership development, known for programs that
@@ -182,7 +182,7 @@ function WhyMashar() {
           <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-r-[40px]"></div>
 
           <div className="relative z-10 h-full flex flex-col items-center justify-center text-center p-16 transition-all duration-200">
-            <h2 className="text-4xl font-semibold mb-6 transition-all duration-200 group-hover:mb-0 group-hover:text-[#FF7C02]">
+            <h2 className="text-5xl font-semibold mb-6 transition-all duration-200 group-hover:mb-0 group-hover:text-[#FF7C02]">
               Our{" "}
               <span className="text-[#FF7C02] group-hover:text-black px-2 rounded transition-all duration-200">
                 Mission
@@ -219,7 +219,7 @@ function WhyMashar() {
               </svg>
             </div>
 
-            <p className="text-sm tracking-wider mt-6 transition-all duration-200 group-hover:mt-2">
+            <p className=" mt-6 transition-all duration-200 group-hover:mt-2">
               We co-create learning experiences that strengthen the human side
               of leadership — empowering individuals, teams, and organizations
               to grow with clarity, trust, and impact.
@@ -230,10 +230,10 @@ function WhyMashar() {
 
       {/* our values Section */}
       <div
-        className=" font-spartan relative p-20 flex justify-center items-center text-center text-white overflow-hidden"
+        className="font-spartan relative p-20 flex justify-center items-center text-center text-white overflow-hidden"
         style={{
           background:
-            "linear-gradient(90deg, ##FF7C02 0%, #0F1C80 20%, #0F1C80 80%, ##FF7C02 100%)",
+            "radial-gradient(60.63% 609.29% at 50% 50%, #0F1C80 44.56%, #FF7C02 100%)",
         }}
       >
         <div className="absolute top-[-25px] left-1 ">

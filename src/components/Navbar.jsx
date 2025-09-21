@@ -1,5 +1,6 @@
 import { FaPhoneAlt, FaEnvelope, FaSearch } from "react-icons/fa";
 import logoMashar from "../assets/logoMashar.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -35,8 +36,14 @@ const Navbar = () => {
 
         {/* Menu Links */}
         <ul className="hidden md:flex gap-6  font-normal text-[17px] font-poppins leading-[42px] py-4">
-          <li className="cursor-pointer hover:text-blue-900">Home</li>
-          <li className="cursor-pointer hover:text-blue-900">Why Mashar</li>
+          <li className="cursor-pointer hover:text-blue-900">
+            {" "}
+            <a href="/">Home</a>
+          </li>
+          <li className="cursor-pointer hover:text-blue-900">
+            <a href="/whyMashar">Why Mashar</a>
+          </li>
+
           <li className="cursor-pointer hover:text-blue-900">Our Signature</li>
           <li className="cursor-pointer hover:text-blue-900">
             Explore Programs

@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import popupImage from "../assets/popup.jpg";
 
-const NewsletterPopup = () => {
-  const [isOpen, setIsOpen] = useState(true); // popup visible by default
-
-  if (!isOpen) return null; // hide popup if closed
+const NewsletterPopup = ({ onClose }) => {
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 ">
       <div className="bg-white  shadow-lg flex relative overflow-hidden tracking-wider">
@@ -29,7 +26,7 @@ const NewsletterPopup = () => {
         <div className="px-5  py-6 relative flex flex-col justify-center w-[345px] font-spartan tracking-wider">
           {/* Close Button */}
           <button
-            onClick={() => setIsOpen(false)}
+            onClick={onClose}
             className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-full bg-[#E9E9E9]"
           >
             <svg
