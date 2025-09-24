@@ -12,6 +12,9 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         spartan: ['"League Spartan"', "sans-serif"],
       },
+      boxShadow: {
+        blue: "0px 4px 4px 0px #2B3476",
+      },
     },
   },
   plugins: [],

@@ -1,0 +1,21 @@
+/* .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 1;
+  color: #0f1c80;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* .logo-slider .slick-slide {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.logo-slider .slick-track {
+  display: flex !important;
+  align-items: center;
+} */
+/* shrink all slides slightly */
