@@ -10,12 +10,10 @@ const getRandomPosition = (maxX, maxY, size, minDistance = 150) => {
   let tries = 0;
 
   do {
-    // pick raw x/y within usable width/height
     const xRaw = Math.random() * (maxX - size - padding * 2);
     const yRaw = Math.random() * (maxY - size - padding * 2);
 
     position = {
-      // shift so (0,0) is the center instead of top-left
       x: xRaw - (maxX - size - padding * 2) / 2,
       y: yRaw - (maxY - size - padding * 2) / 2,
     };
@@ -35,7 +33,8 @@ const FloatingCircle = ({
   children,
   size,
   gradient,
-  duration = 4,
+  duration = 5,
+
   containerWidth = 600,
   containerHeight = 600,
 }) => {
@@ -75,7 +74,7 @@ const FloatingCircle = ({
       animate={position}
       transition={{
         duration,
-        ease: "easeInOut",
+        ease: "linear",
       }}
     >
       {children}

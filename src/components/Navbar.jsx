@@ -44,7 +44,9 @@ const Navbar = () => {
             <a href="/whyMashar">Why Mashar</a>
           </li>
 
-          <li className="cursor-pointer hover:text-blue-900">Our Signature</li>
+          <li className="cursor-pointer hover:text-blue-900">
+            <a href="/ourSignature">Our Signature</a>
+          </li>
           <li className="cursor-pointer hover:text-blue-900">
             Explore Programs
           </li>

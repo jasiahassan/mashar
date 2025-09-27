@@ -195,7 +195,7 @@ const Home = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -659,7 +659,7 @@ const Home = () => {
             <FloatingCircle
               size="125"
               gradient="radial-gradient(60.63% 609.29% at 50% 50%, #0F1C80 44.56%, #FF7C02 100%)"
-              duration={6}
+              duration={5}
             >
               Future-Ready Growth
             </FloatingCircle>
